@@ -11,5 +11,9 @@
     "url": "studiotale,git,programme"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "git",
+    "studiotale"
+  ]
 }
