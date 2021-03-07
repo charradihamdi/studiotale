@@ -1,0 +1,105 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif regular;
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 18px;
+  color: #2a2d35;
+}
+
+header{
+  margin: 8px 50px;
+  font-size: 24px;
+}
+
+.navbar-brand{
+  font-size: 28px;
+  font-weight: 500;
+  color: #2a2d35;
+
+}
+.nav-item{
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.08em;
+          color: rgb(38, 38, 59);
+          text-transform: uppercase;
+          }
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.nav-item{
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: rgb(38, 38, 59);
+  text-transform: uppercase;
+}
+.navbar-nav>li:last-child>a:hover{
+  background-color: rgb(38, 38, 59);
+  color: white;
+}
+section{
+  margin: 0 60px;
+}
+
+.title{
+  font-size: 48px;
+  font-family:  Roboto, 'sans serif', 'Helvetica Neue', sans-serif;
+  color: #0a0a0a;
+  line-height: 50px;
+}
+
+.description{
+  font-weight: 400;
+  font-size: 18px;
+}
+.actions> button:nth-child(2) {
+  font-size: 22px;
+
+}
+.btn-primary{
+  background-color: #0585af;
+}
+/*section2*/
+section>article>div>i:first-child {
+ 
+font-size: 64px;
+ color: #0a9ac9;
+border: 0px solid black;
+border-radius: 50%;
+margin-right: 70px;
+
+}
+section>article>div {
+  background-size: 350px 220px;
+  height: 220px;
+  width: 350px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 0px solid black;
+}
+section>article>div>i:first-child { 
+  cursor: pointer;
+
+  animation-name: cercleanimation ;
+  -webkit-animation-delay: 5s;
+  animation:cercleanimation 1s infinite;
+}
+
+@keyframes cercleanimation {
+0%{border: 0px solid black;}
+70%{border: 0px solid black;}
+  85%{border-radius: 50%;padding: 0px  ;border: 2px solid #0a7fa7;}
+  90%{border-radius: 50%;padding: 5px ;border: 1px solid #148ab1;}
+  95%{border-radius: 50%;padding: 8px ;border: 1px solid #148ab1;}
+  100%{border-radius: 50%;padding: 10px  ;border: 3px solid #1895be}
+}
+/*section3*/
+.description {
+font-size: 19px;
+  font-family: regular;
+}
